@@ -16,11 +16,11 @@
 
         <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <StackPanel Orientation="Horizontal">
-                <TextBlock Text="Введите название для:" Width="175" TextAlignment="Right"></TextBlock>
+                <TextBlock Text="Введите название для поиска:" Width="175" TextAlignment="Right"></TextBlock>
                 <TextBox Width="225" Name="TBoxSearch" TextChanged="TBoxSearch_TextChanged"></TextBox>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <TextBlock Text=" тип:" Width="175" TextAlignment="Right"></TextBlock>
+                <TextBlock Text="Новый тип:" Width="175" TextAlignment="Right"></TextBlock>
                 <ComboBox Width="225" Name="ComboType" SelectionChanged="ComboType_SelectionChanged" DisplayMemberPath="Name"></ComboBox>
             </StackPanel>
             <CheckBox x:Name="CheckActual" Checked="CheckActual_Checked" Unchecked="CheckActual_Checked" Content="Показывать только актуальные туры" HorizontalAlignment="Center"></CheckBox>
